@@ -47,7 +47,6 @@ function validaPrimeiroDigito(cpf) {
 }
 
 
-
 function validaSegundoDigito(cpf) {
     let soma = 0;
     let multiplicador = 11;
