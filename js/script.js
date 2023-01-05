@@ -1,5 +1,6 @@
 import umCpf from "./validaCpf.js";
-const camposDoFormulario = document.querySelectorAll("[required");
+import maiorDeIdade from "./validaIdade.js";
+const camposDoFormulario = document.querySelectorAll('[required]');
 
 
 camposDoFormulario.forEach((campo) => {
@@ -10,5 +11,9 @@ camposDoFormulario.forEach((campo) => {
 function verificaCampo(campo) {
     if (campo.name == 'cpf' && campo.value.length >= 11) {
         umCpf(campo);
+    }
+
+    if (campo.name == "aniversario" && campo.value != "") {
+        maiorDeIdade(campo);
     }
 }
