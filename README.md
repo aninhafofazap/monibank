@@ -1,13 +1,24 @@
-<p align="center"> <img src="https://imgur.com/mIBmcEL.png" alt="Javascript: validando formulários"> </p>
-
-<hr>
-
 <p align="center"> <img src="https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png" alt="Logo da Alura"> </p>
-<p align="center">Formulário de criação de contas para o banco virtual MoniBank.</p>
+<p align="center">Account creation form for the MoniBank virtual bank.</p>
 
-## Tecnologias utilizadas durante o curso
-* JavaScript
+## Functionalities
 
-## Tecnologias utilizadas no projeto
-* HTML
-* CSS
+It has the functionality to validate form and facial recognition
+
+## Authors
+
+- [@aninhafofazap](https://github.com/aninhafofazap)
+- [@MoniHillman](https://github.com/MonicaHillman)
+
+## Access link
+
+- (https://monibank-seven.vercel.app/)
+
+## Technologies used during the course
+
+- JavaScript
+
+## Technologies used in the project
+
+- HTML
+- CSS
